@@ -42,7 +42,7 @@ Open a browser and go to URL
 # RUN With Docker
 or You can use the docker file to run it 
 
-    docker build . -t customapp
+    docker build . -t custom-app
     docker run -p 5000:5000 custom-app
 
     
