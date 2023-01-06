@@ -39,7 +39,11 @@ Open a browser and go to URL
     http://<IP>:5000                            => Welcome
     http://<IP>:5000/how%20are%20you            => I am good, how about you?
     
-    
+# RUN With Docker
 or You can use the docker file to run it 
+
     docker build . -t customapp
     docker run -p 5000:5000 custom-app
+
+    
+    
